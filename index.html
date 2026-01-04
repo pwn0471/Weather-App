@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.webp" class="icon">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,27 +13,34 @@
             <input type="text" placeholder="Enter city name" spellcheck="false">
             <button><img src="images/search.png" alt=""></button>
         </div>
+
+        <div class="error">
+            <p>Invalid city name</p>
+
+        </div>
+
         <div class="weather">
             <img src="images/rain.png" class="weather-icon" alt="">
-            <h1 class=""temp">18°C</h1>
+            <h1 class="temp">18°C</h1>
             <h2 class="city">New York</h2>
             <div class="details">
                 <div class="col">
                     <img src="images/humidity.png" alt="">
                     <div>
                         <p class="humidity">50%</p>
-                        <p>humidity</p>
+                        <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
                     <img src="images/wind.png" alt="">
                     <div>
                         <p class="wind">50km/h</p>
-                        <p>Wind speed</p>
+                        <p>Wind Speed</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
