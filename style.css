@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.6s ease-in-out;
 }
 
 /* MAIN CARD */
